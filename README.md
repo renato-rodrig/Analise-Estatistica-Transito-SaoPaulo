@@ -1,4 +1,4 @@
-MOBIT - Teste de nível Ciência de Dados para Estágio
+Analise Estatistica do Transito em Sao Paulo
 ========================================
 
 Visão do projeto
@@ -81,24 +81,3 @@ Os seguintes testes buscam avaliar o nível de conhecimento do candidato em recu
 - A partir dos endereços propostos, utilize alguma api do python que converta o endereço e geolocalização.
 - Plote círculos de engarrafamentos em um mapa de São Paulo baseado no comprimento do mesmo e a geolocalização obtida anteriormente. 
 ```
-[EXTRA] 
-```
-- Configure e treine algum classificador(árvores, bayesiano, rede neural) que receba informações de entrada, seja as disponibilizadas no dataset ou geradas por outro dataset, com o intuito de informar se no determinado horário e local se haverá ou não engarrafamento.
-- Gere um gráfico de correlação das variáveis em uso e crie um ranque das variáveis mais relevantes para a solução do problema proposto no item EXTRA.
-```
-
-Não se limite às análises sugeridas. Fique a vontade a realizar outros tipos de análises que não foram sugeridas.
-
-Submetendo o código para avaliação
-----------------------------------
-
-
-Quando finalizado e pronto para envio, gere o(s) arquivo(s) de patch com os códigos desenvolvidos.
-
-	git format-patch origin/master
-
-Envie os arquivos de patch gerados por e-mail ao responsável pela aplicação do teste (jobs@mobitbrasil.com.br). Com o git configurado para envio de e-mail, pode ser feito com:
-
-    git send-email  
-
-Caso prefira, o candidato pode clonar este repositório e subir as soluções em sua própria conta do Bitbucket. Nesse caso, enviar o endereço do repositório com as soluções para o email (jobs@mobitbrasil.com.br). 
